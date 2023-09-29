@@ -1,0 +1,21 @@
+{
+  "chainID": "0",
+  "abec.rpc.endpoint": "https://abec-rpc-test.abelos.io",
+  "abec.rpc.username": "O4/8RDUM8jZlzFNCGOwJYdgSUeQ=",
+  "abec.rpc.password": "LRiy3r95mYE/B3QlZLwt6JL/sII=",
+
+  "SDKTrackCoins.accounts": "0,1,2,3,4,5,6,7,8,9",
+  "SDKTrackCoins.scanHeightRange": "147228,147229",
+  "SDKTrackCoins.trackHeightRange": "147487,147488",
+
+  "SDKMakeUnsignedRawTx.scanHeightRange": "147487,147488",
+  "SDKMakeUnsignedRawTx.senders": "0,1",
+  "SDKMakeUnsignedRawTx.receivers": "0,1,2,3",
+  "SDKMakeUnsignedRawTx.outputFile": "unsigned-raw-tx.json",
+
+  "SDKMakeSignedRawTx.senders": "0",
+  "SDKMakeSignedRawTx.inputFile": "unsigned-raw-tx.json",
+  "SDKMakeSignedRawTx.outputFile": "signed-raw-tx.json",
+
+  "SDKSubmitSignedRawTx.inputFile": "signed-raw-tx.json"
+}

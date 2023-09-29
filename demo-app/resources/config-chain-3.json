@@ -1,0 +1,21 @@
+{
+  "chainID": "3",
+  "abec.rpc.endpoint": "https://abec-rpc-simnet-new.abelos.io",
+  "abec.rpc.username": "62B6%!JqqwCFfRyj",
+  "abec.rpc.password": "XHwsrlwWOq2nMpTv",
+
+  "SDKTrackCoins.accounts": "0,1,2,3,4,5,6,7,8,9",
+  "SDKTrackCoins.scanHeightRange": "748,750",
+  "SDKTrackCoins.trackHeightRange": "834,835",
+
+  "SDKMakeUnsignedRawTx.scanHeightRange": "748,750",
+  "SDKMakeUnsignedRawTx.senders": "4,5",
+  "SDKMakeUnsignedRawTx.receivers": "8,9,4,5",
+  "SDKMakeUnsignedRawTx.outputFile": "unsigned-raw-tx.json",
+
+  "SDKMakeSignedRawTx.senders": "4,5",
+  "SDKMakeSignedRawTx.inputFile": "unsigned-raw-tx.json",
+  "SDKMakeSignedRawTx.outputFile": "signed-raw-tx.json",
+
+  "SDKSubmitSignedRawTx.inputFile": "signed-raw-tx.json"
+}
